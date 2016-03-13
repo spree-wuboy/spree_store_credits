@@ -18,11 +18,11 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   spree_version = '~> 2.2.0.beta'
-  s.add_dependency 'spree_api', spree_version
-  s.add_dependency 'spree_core', spree_version
-  s.add_dependency 'spree_frontend', spree_version
-  s.add_dependency 'spree_backend', spree_version
-  s.add_development_dependency 'spree_sample', spree_version
+  s.add_dependency 'spree_api'
+  s.add_dependency 'spree_core'
+  s.add_dependency 'spree_frontend'
+  s.add_dependency 'spree_backend'
+  s.add_development_dependency 'spree_sample'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'ffaker'
